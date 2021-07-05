@@ -10,9 +10,9 @@ remoteVideo.onplaying = () => { remoteVideo.style.opacity = 1 }
 let peer
 function init(userId) {
     peer = new Peer(userId, {
-        host: '192.168.0.103',
-        port: 9000,
-        path: '/server'
+        host: 'asmita33.github.io',
+        port: 443,
+        path: '/server1'
     })
     peer.on('open', () => {
     Android.onPeerConnected()
